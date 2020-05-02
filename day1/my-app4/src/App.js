@@ -1,5 +1,5 @@
 import React from "react";
-import Meteo from "./components/bottomMeteo";
+import bottomMeteo from "./components/bottomMeteo";
 import TopMeteo from "./components/topMeteo";
 import "./App.css";
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <TopMeteo />
-        <Meteo />
+        <bottomMeteo />
       </div>
     </div>
   );
